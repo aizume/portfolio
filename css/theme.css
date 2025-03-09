@@ -1,0 +1,175 @@
+:root {
+    --primary-color: #2ecc71;
+    --text-color: #333;
+    --bg-color: #fff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.logo span {
+    color: var(--primary-color);
+}
+
+
+
+.greeting {
+    color: var(--primary-color);
+}
+
+.highlight {
+    color: var(--primary-color);
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.cta-button {
+    padding: 12px 30px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cta-button.secondary {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.cta-button.secondary:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.experience-badge {
+    position: absolute;
+    right: -20px;
+    bottom: 30px;
+    background: var(--primary-color);
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(46, 204, 113, 0.3);
+}
+
+.detail-item i {
+    color: var(--primary-color);
+    font-size: 24px;
+}
+
+.skill-item i {
+    font-size: 30px;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.skill-tag {
+    background: var(--primary-color);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.progress {
+    height: 100%;
+    background: var(--primary-color);
+    border-radius: 10px;
+    transition: width 1s ease;
+}
+
+.soft-skill-item i {
+    color: var(--primary-color);
+}
+
+.card strong {
+    color: var(--primary-color);
+}
+
+.view-more {
+    background: var(--primary-color);
+}
+
+.view-more:hover {
+    background: #27ae60;
+}
+
+.card-actions .view-more.gallery {
+    background: var(--primary-color);
+}
+
+.card-actions .view-more.gallery:hover {
+    background: #27ae60;
+}
+
+.card-actions a[href] {
+    background-color: var(--primary-color);
+}
+
+.card-actions a[href]:hover {
+    background-color: #27ae60;
+}
+
+.slide-caption,
+.slide-counter {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.close:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+blockquote {
+    border-left: 4px solid var(--primary-color);
+}
+
+.tech-stack img:hover {
+    filter: grayscale(0%);
+}
+
+.contact-item:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.contact-item:hover i {
+    color: white;
+}
+
+.social-link:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.download-pdf {
+    background: var(--primary-color);
+}
+
+.download-pdf:hover {
+    background: #27ae60;
+}

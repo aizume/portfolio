@@ -1,0 +1,250 @@
+@media (max-width: 968px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .hero-content h1 {
+        font-size: 40px;
+    }
+
+    .role {
+        font-size: 24px;
+    }
+
+    .image-container {
+        width: 300px;
+        height: 300px;
+    }
+
+    .role, .description {
+        text-align: center;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .about-image {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .about-details {
+        grid-template-columns: 1fr;
+    }
+
+    .detail-item {
+        justify-content: center;
+    }
+
+    .about-description {
+        text-align: center;
+    }
+
+    .skills-grid,
+    .soft-skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-item,
+    .soft-skill-item {
+        padding: 20px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+
+    .tech-stack {
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .tech-stack img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .achievements {
+        padding: 25px;
+        margin: 30px 20px;
+    }
+
+    section {
+        padding: 60px 5%;
+    }
+
+    section h2 {
+        font-size: 28px;
+    }
+
+    #about p, #skills p, #portfolio p, #contact p {
+        font-size: 16px;
+    }
+
+    .contact-card {
+        padding: 30px 20px;
+    }
+
+    .slide-content {
+        max-width: 95%;
+        max-height: 70vh;
+    }
+
+    .slide-caption {
+        bottom: 20px;
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .slide-nav {
+        width: 40px;
+        height: 40px;
+    }
+
+    .prev { left: 10px; }
+    .next { right: 10px; }
+
+    .slide-content-wrapper {
+        padding: 20px;
+    }
+
+    .slide-content {
+        max-height: calc(100vh - 100px);
+    }
+
+    .slide-nav {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .slide-caption {
+        bottom: 20px;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .close {
+        top: 10px;
+        right: 10px;
+        font-size: 30px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card .portfolio-img {
+        height: 180px;
+    }
+
+    .slide-container {
+        width: 95vw;
+        padding: 0 10px;
+    }
+
+    .slide-content {
+        max-height: 70vh;
+    }
+
+    .project-images-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-images-grid .portfolio-img {
+        height: 120px;
+    }
+
+    #slideModal .modal-content {
+        max-width: 100%;
+        max-height: 80vh;
+    }
+
+    .slide-nav {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .prev { left: 5px; }
+    .next { right: 5px; }
+
+    .slide-caption {
+        width: 90%;
+        font-size: 14px;
+        padding: 8px 15px;
+        bottom: 10px;
+    }
+
+    .slide-counter {
+        font-size: 14px;
+        padding: 5px 10px;
+        top: 10px;
+    }
+
+    .close {
+        top: 10px;
+        right: 10px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .project-images-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-images-grid .portfolio-img {
+        height: 120px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (orientation: landscape) and (max-height: 600px) {
+    #slideModal .modal-content {
+        max-height: 90vh;
+    }
+
+    .slide-caption {
+        bottom: 5px;
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .slide-counter {
+        top: 5px;
+    }
+
+    .modal-content-wrapper {
+        height: 90vh;
+    }
+
+    .modal-content {
+        max-height: 85vh;
+    }
+}
